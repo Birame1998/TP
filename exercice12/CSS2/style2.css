@@ -1,0 +1,15 @@
+body{
+    width: 98vw;
+    background-color: maroon;
+    color: white;
+}
+table{
+    width: 60vw;
+    height: 30vh;
+    font-size: 30px;
+}
+td{
+    border:solid;
+    text-align: center;
+    width: 15vw;
+}

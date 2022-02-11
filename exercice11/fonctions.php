@@ -1,5 +1,5 @@
 
-<html lang="en">
+<html lang="fr">
 <head>
     <title>Resultat</title>
     <link rel="stylesheet" href="CSS/style2.css">

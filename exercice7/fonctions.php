@@ -5,11 +5,11 @@ function nombre_de_jours(int $j,int $m,int $a):int
      $j=-1;
  }
  if ($m==2) {
-     if ($a%4==0 && $a%100!=0 OR $a%400==0) {
+    $j=28; 
+    if ($a%4==0 && $a%100!=0 OR $a%400==0) {
          $j=29;
-     }else {
-         $j=28;
      }
+     
  }else {
      if ($m==4 OR $m==6 OR $m==9 OR $m==11) {
          $j=30;
@@ -21,9 +21,7 @@ function nombre_de_jours(int $j,int $m,int $a):int
 }
 function date_valide(int $j,int $m,int $a):bool
 {
-    if ($j>=1 && $j<=nombre_de_jours($j,$m,$a)) {
-        return true;
-    }
+    return $j>=1 && $j<=nombre_de_jours($j,$m,$a);
 }
 function date_suivante($j,$m,$a):void
 {
