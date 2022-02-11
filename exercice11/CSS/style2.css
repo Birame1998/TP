@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    color: goldenrod;
+}
+td{  
+  border: solid 0.5px;
+  border-color: gold;  
+}
